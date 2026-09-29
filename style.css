@@ -151,7 +151,9 @@ nav .contato {
 
 
 .card {
-    width: 250px;
+    width: 400px;
+
+    height: 600px;
 
     background-color: #f7fbff;
 
@@ -171,8 +173,8 @@ nav .contato {
 }
 
 
-.card img {
-    width: 100%;
+.cards img {
+    width: 145px;
     height: 145px;
 
     object-fit: cover;
@@ -188,7 +190,7 @@ nav .contato {
 
 
 .card h3 {
-    font-size: 24px;
+    font-size: 30px;
 
     margin-top: 15px;
 }
@@ -198,22 +200,22 @@ nav .contato {
 
     margin-top: 7px;
 
-    font-size: 14px;
+    font-size: 20px;
 }
 
 
-.card.destaque {
+.card {
 
     transform: scale(1.04);
 }
 
-.card.destaque:hover {
+.card:hover {
     transform: scale(1.04) translateY(-8px);
 }
 
 
-.card.menor h3 {
-    font-size: 21px;
+.card h3 {
+    font-size: 24px;
 }
 
 
@@ -241,4 +243,8 @@ footer p {
     margin-top: 6px;
 
     color: #d6e5f5;
+}
+
+html {
+    scroll-behavior: smooth;
 }
